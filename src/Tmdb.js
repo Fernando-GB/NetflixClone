@@ -3,6 +3,47 @@ const API_BASE = 'https://api.themoviedb.org/3';
 
 export default {
     getHomeList: async () => {
-        return [];
+        return [
+            {
+                slug: 'originals',
+                title: 'Originais do Netflix',
+                items: []
+            },
+            {
+                slug: 'treding',
+                title: 'Recomendados para Você',
+                items: []
+            },
+            {
+                slug: 'toprated',
+                title: 'Em Alta',
+                items: []
+            },
+            {
+                slug: 'action',
+                title: 'Ação',
+                items: []
+            },
+            {
+                slug: 'comedy',
+                title: 'Comedia',
+                items: []
+            },
+            {
+                slug: 'horror',
+                title: 'Terror',
+                items: []
+            },
+            {
+                slug: 'romance',
+                title: 'Romance',
+                items: []
+            },
+            {
+                slug: 'documentary',
+                title: 'Documentário',
+                items: []
+            },
+        ];
     }
 }
