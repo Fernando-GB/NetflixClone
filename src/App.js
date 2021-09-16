@@ -15,8 +15,8 @@ export default () => {
   }, []);
 
   return (
-    <div>
-        Lov!
+    <div className='page'>
+        <section className="lists">
       </div>
   );
 
