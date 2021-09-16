@@ -1,7 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Tmdb from './Tmdb';
 
 export default () => {
+
+  const [movielist, setMovieList] = useState([]);
 
   useEffect (()=>{
     const loadAll = async () => {
@@ -14,7 +16,7 @@ export default () => {
 
   return (
     <div>
-        Olá Mundo!
+        Lov!
       </div>
   );
 
