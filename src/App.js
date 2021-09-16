@@ -7,6 +7,7 @@ export default () => {
 
   useEffect (()=>{
     const loadAll = async () => {
+
       let list = await Tmdb.getHomeList();
       setMovieList(list);
     }
@@ -17,7 +18,7 @@ export default () => {
   return (
     <div className='page'>
         <section className="lists">
-          {movieList.map((item, key)=>(
+          {movielist.map((item, key)=>(
             <div>
               {item.title}
             </div>
