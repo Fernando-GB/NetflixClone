@@ -3,7 +3,7 @@ import Tmdb from './Tmdb';
 
 export default () => {
 
-  const [movielist, setMovieList] = useState([]);
+  const [movieList, setMovieList] = useState([]);
 
   useEffect (()=>{
     const loadAll = async () => {
@@ -18,7 +18,7 @@ export default () => {
   return (
     <div className='page'>
         <section className="lists">
-          {movielist.map((item, key)=>(
+          {movieList.map((item, key)=>(
             <div>
               {item.title}
             </div>
