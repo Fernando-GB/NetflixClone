@@ -51,6 +51,6 @@ export default {
                 title: 'Documentário',
                 items: await basicFetch(`/discovery/movie?with_genres=99&language=pt-BR&api_key=${API_KEY}`)
             },
-        ];
+        ]
     }
 }
