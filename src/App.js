@@ -16,7 +16,7 @@ export default () => {
   }, []);
 
   return (
-    <div className='page'>
+    <div className="page">
         <section className="lists">
           {movieList.map((item, key)=>(
             <div>
@@ -24,6 +24,6 @@ export default () => {
             </div>
           ))}
         </section>
-      </div>
+    </div>
   );
 }
