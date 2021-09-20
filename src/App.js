@@ -4,7 +4,6 @@ import Tmdb from './Tmdb';
 import MovieRow from './components/MovieRow';
 
 
-// eslint-disable-next-line
 export default () => {
 
   const [movieList, setMovieList] = useState([]);
