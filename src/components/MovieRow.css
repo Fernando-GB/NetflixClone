@@ -17,4 +17,5 @@
 }
 .movieRow--item img {
     witdh: 100%;
+    transform: scale(0.9);
 }
