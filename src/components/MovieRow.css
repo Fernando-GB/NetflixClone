@@ -6,6 +6,7 @@
 }
 .movieRow--listarea {
     overflow-x: hidden;
+    padding-left: 30px;
 }
 .movieRow--list {
     width: 99999999px;
