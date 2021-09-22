@@ -16,32 +16,32 @@ export default {
 
             {
                 slug: 'originals',
-                title: 'Títulos especiais para você',
+                title: 'Special Movies for You',
                 items: await basicFetch(`/discover/tv?with_network=213&api_key=${API_KEY}`)
             },
             {
                 slug: 'treding',
-                title: 'Recomendados para Você',
+                title: 'Recommended for You',
                 items: await basicFetch(`/trending/all/week?api_key=${API_KEY}`)
             },
             {
                 slug: 'toprated',
-                title: 'Em Alta',
+                title: 'Top Rated Movies',
                 items: await basicFetch(`/movie/top_rated?api_key=${API_KEY}`)
             },
             {
                 slug: 'action',
-                title: 'Ação',
+                title: 'Action',
                 items: await basicFetch(`/discover/movie?with_genres=28&api_key=${API_KEY}`)
             },
             {
                 slug: 'comedy',
-                title: 'Comedia',
+                title: 'Comedy',
                 items: await basicFetch(`/discover/movie?with_genres=35&api_key=${API_KEY}`)
             },
             {
                 slug: 'horror',
-                title: 'Terror',
+                title: 'Horror',
                 items: await basicFetch(`/discover/movie?with_genres=27&api_key=${API_KEY}`)
             },
             {
@@ -51,7 +51,7 @@ export default {
             },
             {
                 slug: 'documentary',
-                title: 'Documentário',
+                title: 'Documentary',
                 items: await basicFetch(`/discover/movie?with_genres=99&api_key=${API_KEY}`)
             },
         ];
