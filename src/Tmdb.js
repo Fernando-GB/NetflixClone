@@ -1,3 +1,5 @@
+import { traverseTwoPhase } from "react-dom/test-utils";
+
 const API_KEY = 'd6f5da42285fa3077674344a42a83220';
 const API_BASE = 'https://api.themoviedb.org/3';
 
@@ -52,6 +54,23 @@ export default {
                 title: 'Documentário',
                 items: await basicFetch(`/discover/movie?with_genres=99&api_key=${API_KEY}`)
             },
-        ]
+        ];
+    },
+    getMovieInfo: async (movieId, type) => {
+        let info = {};
+        
+        if(movieId) {
+            switch(type) {
+                case 'movie':
+                    info = await basicFetch(`/movie/${movieId}?api_key=${API_KEY}`);
+                break;
+                case 'tv':
+                    info = await basicFetch(`/tv/${movieId}?api_key${API_KEY}`);
+                break;
+
+            }    
+        }
+
+        return info;
     }
 }
