@@ -1,10 +1,10 @@
 import React from 'react';
 import './FeaturedMovie.css';
 
-export default () => {
+export default ({item}) => {
     return (
-        <div>
-            FILME EM DESTAQUE
-        </div>
+        <section class name="featured">
+            <div>{item.original_name}</div>
+        <section/>
     );
-}
+}     
