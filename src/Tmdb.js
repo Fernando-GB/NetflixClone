@@ -65,8 +65,11 @@ export default {
                     info = await basicFetch(`/movie/${movieId}?api_key=${API_KEY}`);
                 break;
                 case 'tv':
-                    info = await basicFetch(`/tv/${movieId}?api_key${API_KEY}`);
+                    info = await basicFetch(`/tv/${movieId}?api_key=${API_KEY}`);
                 break;
+                default:
+                    info = null;
+                break; 
 
             }    
         }
