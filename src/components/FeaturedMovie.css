@@ -10,6 +10,10 @@
     width: inherit;
     height: inherit;
     background: linear-gradient(to right, #111 30%, transparent 70%); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
 }
 .featured--name {
     font-size: 60px;
@@ -64,4 +68,9 @@
 .featured--mylistbutton {
     background-color: #333;
     color: #ffff;
+}
+.featured--genres {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #999
 }
