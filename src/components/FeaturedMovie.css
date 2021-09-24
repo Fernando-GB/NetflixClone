@@ -19,4 +19,21 @@
     font-size: 18px;
     font-weight: bold;
     margin-top: 15px;
+} 
+.featured--points {
+    display: inline-block;
+    color: #46d369;
+    margin-right: 15px;
+}
+.featured--year {
+    display: inline-block;
+    margin-right: 15px;
+}
+.featured--seasons {
+    display: inline-block;
+}
+.featured--description {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #999;
 }
