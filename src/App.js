@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Tmdb from './Tmdb';
-import MovieRow from './components/MovieRow';
-import FeaturedMovie from './components/FeaturedMovie';
-import Header from './components/Header';
+import MovieRow from './Components/MovieRow';
+import FeaturedMovie from './Components/FeaturedMovie';
+import Header from './Components/Header';
 
 
 export default () => {
@@ -58,6 +58,17 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </section>
+
+      <footer>
+      Netflix, all rights reserved. <br/>
+      Data from Themoviedb.org <br/>
+      <a href="https://github.com/Fernando-GB"> github.com/Fernando-GB</a>
+      </footer>
+
+      {movieList.length <= 0 &&
+        <div className="loading">
+        </div>
+      }
     </div>
-  );
+  )
 }
