@@ -1,3 +1,10 @@
+Project made with the guidance of 𝑩𝒐𝒏𝒊𝒆𝒌𝒚 𝑳𝒂𝒄𝒆𝒓𝒅𝒂.
+https://www.youtube.com/watch?v=tBweoUiMsDg&ab_channel=BoniekyLacerda
+
+
+
+
+
 https://user-images.githubusercontent.com/71611477/135113035-516d0bc1-6ab4-4bb9-bae8-2d95c6bf559f.mp4
 
 
@@ -71,3 +78,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### API
+ https://www.themoviedb.org/
