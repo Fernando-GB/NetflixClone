@@ -1,4 +1,4 @@
-Project made with the guidance of 𝑩𝒐𝒏𝒊𝒆𝒌𝒚 𝑳𝒂𝒄𝒆𝒓𝒅𝒂.
+Project from 𝑩𝒐𝒏𝒊𝒆𝒌𝒚 𝑳𝒂𝒄𝒆𝒓𝒅𝒂.
 https://www.youtube.com/watch?v=tBweoUiMsDg&ab_channel=BoniekyLacerda
 
 
